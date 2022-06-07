@@ -1,0 +1,57 @@
+export enum COLORS {
+  GREY_LIGHT = '#F8F9FA',
+  BLUE_GREY = '#0880BC',
+  BLACK = '#150712',
+  DARK_BLUE = '#172C51',
+  LIGHT_BLUE = '#DBDBDB',
+  LIGHT_GREEN = '#E2EFD7',
+  LIGHT_RED = '#F6CCD1',
+  LIGHT_YELLOW = '#FEF1D1',
+  GREEN = '#6FAD37',
+  RED = '#D0021B',
+  YELLOWB = '#FCB718',
+  DIM_GREY = '#eee',
+  BLUE = 'rgba(9, 122, 194, 1)',
+  SHADOW_BLUE = 'rgba(9, 122, 194, 0.9)',
+  GREY = '#E7E7E7',
+  GOLD = '#FCB718',
+  WHITE = '#fff',
+  TEXT_BLACK = '#2B2727',
+  LIGHT_GREY = '#E7E8ED',
+  DEVIDER_GREY = '#A2A8AB',
+  YELLOW = '#F9BE00',
+  WHISPER = '#F5F6FA',
+  PALE_SKY = '#6B787F',
+  LIMED_SPURCE = '#333E48',
+  JUNGLE_GREEN = '#2bae61',
+  TEXT_BLUE = '#0073BA',
+  SILVER = '#BDBDBD',
+  SECONDARY_SILVER = '#CCCCCC',
+  CHECKED = '#2bae61',
+  NAVY = '#000e2c',
+  MUSTARD = '#f2a900',
+  ERROR = '#F5523C',
+  DANGER = '#f36',
+  GRAY_ICON = '#162952',
+  FUNNY = '#582900',
+  FUNNY_LIGHT = '#e4c9b9',
+}
+
+export enum FONTS {
+  THEME_FONT = 'Roboto',
+}
+
+export enum WIDTHS {
+  DRAWER_WIDTH = 240,
+}
+
+export enum BUTTON_COLORS {
+  PRIMARY_GOLDEN = '#FCB718',
+  PRIMARY_BLUE = 'rgb(9, 122, 194)',
+  PRIMARY_ICON_BLUE = '#0880BC',
+  SECONDARY = '#1175C9',
+  PRIMARY_HOVER_GOLDEN = '#FFC912',
+  GOLDEN_BUTTON_TITLE = '#333E48',
+  BLUE_BUTTON_TITLE = '#FFFFFF',
+  DARK_BLUE = '#162952',
+}
