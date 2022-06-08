@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalContent render should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ cccewh"
+  >
+    <div
+      class="sc-gsnTZi gWVLbH"
+    >
+      <div
+        class="sc-iBkjds ejjMYP"
+        data-testid="poke-title"
+      >
+        fake-name
+      </div>
+      <div
+        class="sc-jSMfEi irKJqN"
+      >
+        <div
+          class="sc-gKXOVf hqkVlx"
+          color="#6FAD37"
+        >
+          type1
+        </div>
+        <div
+          class="sc-gKXOVf hqkVlx"
+          color="#6FAD37"
+        >
+          type2
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi gWVLbH"
+    >
+      <div
+        class="sc-dkzDqf jnkykB"
+      >
+        <div
+          class="sc-hKMtZM kcRLao"
+        >
+          <div
+            class="sc-eCYdqJ jykncb"
+          >
+            type1
+          </div>
+          <div
+            class="sc-crXcEl dGBSxQ"
+          >
+            <div
+              class="sc-evZas hxkPzg"
+            >
+              <div
+                class="sc-breuTD iRenGZ"
+                color="#E2EFD7"
+              >
+                <div
+                  class="sc-hAZoDl iLaklF"
+                  color="#6FAD37"
+                  style="width: 1%;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        alt=""
+        class="sc-papXJ cKlRNL"
+        src="fake-url"
+      />
+    </div>
+    <button
+      class="sc-ftvSup gMZVcl"
+    >
+      Cancel
+    </button>
+  </div>
+</DocumentFragment>
+`;

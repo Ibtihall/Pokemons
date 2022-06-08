@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper should render with defined wrapped elements 1`] = `
+<DocumentFragment>
+  <h1>
+    fake-wrapper
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`renderWithIntl should call render and return rendered component 1`] = `
+<DocumentFragment>
+  <h2>
+    fake-render
+  </h2>
+</DocumentFragment>
+`;

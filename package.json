@@ -5,9 +5,11 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
+    "@testing-library/react-hooks": "^8.0.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.38",
@@ -60,6 +62,7 @@
     "@types/lodash": "^4.14.182",
     "@types/react-infinite-scroller": "^1.2.3",
     "@types/redux-immutable": "^4.0.3",
-    "@types/styled-components": "^5.1.25"
+    "@types/styled-components": "^5.1.25",
+    "jest-watch-typeahead": "^0.6.5"
   }
 }

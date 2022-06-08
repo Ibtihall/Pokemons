@@ -18,8 +18,8 @@ export const getPokemonByName = createAsyncThunk(
 );
 const initialState:any ={
     pokemons:[],
-    status: null,
-    test: null,
+    isLoading: true,
+    pokeDetails: null,
 }
 const pokemonSlice = createSlice({
   name: "pokemon",
@@ -30,12 +30,19 @@ const pokemonSlice = createSlice({
       state.pokemons = [
         ...state.pokemons,
         ...action.payload,
-
       ];
-      state.status='success'
+      state.isLoading=false;
+    },
+    [getPokemons.pending.toString()]: (state, action) => {
+      state.isLoading=true;
     },
     [getPokemonByName.fulfilled.toString()]: (state, action) => {
-      state.test = {...action.payload};
+      state.pokeDetails = {...action.payload};
+      state.isLoading=false;
+
+    },
+    [getPokemonByName.pending.toString()]: (state, action) => {
+      state.isLoading=true;
     },
   },
 });
